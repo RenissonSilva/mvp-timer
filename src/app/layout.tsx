@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Righteous } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const righteous = Righteous({ subsets: ['latin'], weight: ['400'], variable: "--font-righteous" });
+
 
 export const metadata: Metadata = {
   title: "Ragnarok MVP Timer",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="flex justify-center px-32 pb-4">
-      <body className={inter.className}>{children}</body>
+      <body className={`${righteous.variable}`}>{children}</body>
     </html>
   );
 }

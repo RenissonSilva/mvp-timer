@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,7 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #121214
+  background: #121214;
 }
 
 @layer utilities {
