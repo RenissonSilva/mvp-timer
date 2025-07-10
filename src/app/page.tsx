@@ -4,12 +4,12 @@ import { Box, Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col justify-between p-4 bg-[#121212] text-white">
       <Header />
 
       <Typography className="font-righteous text-2xl mb-4 mt-8">Ativos</Typography>
 
-      <Box className="flex w-[1100px] grid grid-cols-4 gap-7">
+      <Box className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 max-w-[1100px]">
         <MvpCard />
         <MvpCard />
         <MvpCard />

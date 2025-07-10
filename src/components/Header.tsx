@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 
 export function Header() {
     return (
-        <Box className="h-24 flex items-center">
+        <Box className="h-24 flex items-center justify-start">
             <Typography className="font-righteous text-3xl"><span className="text-[#A85FFF]">MVP</span> Timer</Typography>
         </Box>
     )
