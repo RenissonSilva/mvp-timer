@@ -9,7 +9,7 @@ export default function Home() {
 
       <Typography className="font-righteous text-2xl mb-4 mt-8">Ativos</Typography>
 
-      <Box className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 max-w-[1100px]">
+      <Box className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 max-w-[1100px] w-full mx-auto">
         <MvpCard />
         <MvpCard />
         <MvpCard />
@@ -21,14 +21,14 @@ export default function Home() {
 
       <Typography className="font-righteous text-2xl mb-4 mt-8">Todos</Typography>
 
-      <Box className="flex w-[1100px] grid grid-cols-4 gap-7">
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
-        <MvpCard type="alive"/>
+      <Box className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7 max-w-[1100px] w-full mx-auto">
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
+        <MvpCard type="alive" />
       </Box>
     </main>
   );
